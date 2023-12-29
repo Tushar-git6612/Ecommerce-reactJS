@@ -23,7 +23,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const cartSlice = createSlice({
   name: "cartSlice",
-  // empty cartSlice state
+  // empty state of cartSlice
   initialState: [],
   reducers: {
     // that function run operation when user click add to cart button
